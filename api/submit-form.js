@@ -15,8 +15,8 @@ export default async function handler(req, res) {
 
     // Send the email using Resend
     const data = await resend.emails.send({
-      from: 'Acme <onboarding@resend.dev>', // Replace with your verified domain in production
-      to: 'rana.touqeer@gmail.com', // Where you want to receive notifications
+      from: 'NeoGenesis <info@neogenesisltd.com>', // Replace with your verified domain in production
+      to: 'ranatouqeer@neogenesisltd.com', // Where you want to receive notifications
       subject: `New Session Request from ${fullName}`,
       html: `
         <div style="font-family: sans-serif; line-height: 1.6; color: #333; max-width: 600px;">
